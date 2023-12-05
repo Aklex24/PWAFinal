@@ -2,33 +2,46 @@
 <html lang="en">
 
 <head>
+    <!-- Declaración del tipo de documento y configuración del idioma -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Configuración de palabras clave y robots para SEO -->
     <meta name="keywords"
         content="desarrollador backend, programador, ingeniero de software, tecnologías de servidor, Node.js, Python, PHP, desarrollo de API, bases de datos SQL, NoSQL">
     <meta name="robots" content="index, follow">
+        <!-- Icono de la pestaña y configuración del tema del navegador -->
     <link rel="shortcut icon" href="/src/logo.svg" type="image/x-icon">
     <meta name="theme-color" content="black">
     <link rel="apple-touch-icon" href="/src/logo.svg">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <!-- Enlace a la hoja de estilos CSS -->
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="manifest" href="manifest.json" />
+        <!-- Título de la página -->
     <title>Victor Alejandro</title>
 </head>
 
 <body>
+        <!-- Contenedor principal -->
     <div class="container">
+        <!-- Sección sobre mí -->
 
         <section class="about-me">
             <div class="about-me-content">
                 <div class="about-me-text">
-                    <h2>Acerca de mí</h2>
+                                        <!-- Encabezado y descripción personal -->
+
+                    <h2>Quien Soy??</h2>
                     <p>Hola!, Soy Víctor Alejandro García Díaz. Soy un apasionado desarrollador con habilidades
                         destacadas en diversas áreas, incluyendo desarrollo de videojuegos, desarrollo web
                         multiplataforma, modelado 3D y dibujo digital</p>
+                                            <!-- Enlace para descargar el currículum -->
+
                     <a href="/src/portafolio/Curriculum.pdf" download="VictorAlejandro.pdf"
                         class="download-button">Descargar CV</a>
+                                            <!-- Cuadros de redes sociales -->
+
                     <div class="social-box" id="discord-box"
                         onclick="redirectTo('https://www.facebook.com/profile.php?id=100004528123181')">
                         <h3>Facebook</h3>
@@ -45,11 +58,14 @@
                         <div class="status" id="whatsapp-status"></div>
                     </div>
                 </div>
+                                <!-- Imagen personal -->
+
                 <div class="about-me-image">
                     <img src="/src/imagenes/image.psd.png" alt="Tu Nombre">
                 </div>
             </div>
         </section>
+        <!-- Sección de contador para Navidad -->
 
         <section class="reveal">
             <div id="countdown-container">
@@ -57,11 +73,14 @@
                 <div id="countdown"></div>
             </div>
         </section>
+        <!-- Sección de experiencia -->
 
 
         <section class="experience reveal">
             <h2>Experiencia</h2>
             <div class="experience-item">
+                                <!-- Detalles de experiencia en desarrollo de videojuegos -->
+
                 <h3>Desarrollo de videojuegos</h3>
                 <p>Universidad Tecnologia del norte de Aguascalientes</p>
                 <p>[01/09/2023] - [09/12/2023]</p>
@@ -72,16 +91,21 @@
                 </p>
             </div>
         </section>
+        <!-- Sección de educación -->
 
         <section class="education section">
             <h2>Educación</h2>
             <div class="education-item">
                 <div class="education-details">
+                                        <!-- Detalles de educación en ingeniería en desarrollo y gestión de software -->
+
                     <div class="text-details">
                         <h3>Licenciatura en INGENIERÍA EN DESARROLLO Y GESTIÓN DE SOFTWARE</h3>
                         <h3>Universidad Tecnologica Del Norte de Aguascalientes</h3>
                         <p>2020-2024</p>
                     </div>
+                                        <!-- Imagen de la institución educativa con enlace -->
+
                     <div class="education-image">
                         <a href="https://www.utna.edu.mx/utna/" target="_blank"><img src="/src/imagenes/UTNA.png"
                                 alt="Educación"></a>
@@ -91,10 +115,13 @@
         </section>
 
 
+        <!-- Sección de idiomas -->
 
         <section class="languages reveal">
             <h2>LEnguajes</h2>
             <ul class="language-list">
+                                <!-- Lista de idiomas con barras de progreso -->
+
                 <li>
                     <span class="language-name">Español - Nativo</span>
                     <div class="progress-bar">
@@ -110,10 +137,13 @@
             </ul>
         </section>
 
+        <!-- Sección de habilidades -->
 
         <section class="skills reveal">
             <h2>Skills</h2>
             <div class="skills-grid">
+                                <!-- Lista de habilidades con iconos y descripciones -->
+
                 <div class="skills-item">
                     <svg class="" xmlns="http://www.w3.org/2000/svg"
                         class="icon icon-tabler icon-tabler-device-gamepad-2" width="24" height="24" viewBox="0 0 24 24"
@@ -218,14 +248,20 @@
 
 
     </div>
+        <!-- Sección con efecto de escaneo -->
+
     <section>
         <div class="scanlines"></div>
     </section>
 </body>
 </div>
 <div class="scanlines"></div>
+    <!-- Sección de scripts -->
+
 <script src="/scripts/scrollreveal.js"></script>
 <script src="/script.js"></script>
+    <!-- Cierre de la etiqueta body -->
+
 </body>
 
 </html>
